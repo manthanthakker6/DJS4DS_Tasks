@@ -8,7 +8,7 @@ univariate and bivariate/multivariate analysis, and strategic recommendations ba
 | File | Purpose |
 |---|---|
 | `Chicago_CrimeAnalysis.ipynb` | The full analysis notebook — run top to bottom in Jupyter |
-| `chicago_crime_dataset.csv` | Source data (place your copy here if not already present) |
+| `compressed_data.csv.gz` | Source data (place your copy here if not already present) |
 | `README.md` | This file |
 
 ## Dataset
