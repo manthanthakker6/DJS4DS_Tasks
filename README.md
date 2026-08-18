@@ -28,15 +28,16 @@ pip install jupyter pandas numpy matplotlib seaborn
 
 ## Running
 
-1. Put `chicago_crime_dataset.csv` in the same folder as the notebook (already the default
+1. Put `compressed_data.csv
+   ` in the same folder as the notebook (already the default
    `DATA_PATH` in the first code cell — edit that path if your file lives elsewhere).
-2. Launch Jupyter and run all cells:
+3. Launch Jupyter and run all cells:
 ```bash
-   jupyter notebook Chicago_Crime_EDA.ipynb
+   jupyter notebook Chicago_CrimeAnalysis.ipynb
 ```
    or from the command line:
 ```bash
-   jupyter nbconvert --to notebook --execute --inplace Chicago_Crime_EDA.ipynb
+   jupyter nbconvert --to notebook --execute --inplace Chicago_CrimeAnalysis.ipynb
 ```
 
 The notebook has already been run once end to end on this dataset, so it's known to execute cleanly.
